@@ -1,0 +1,219 @@
+/* Estilos Generales */
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  
+
+body {
+    margin: 0;
+    font-family: "bebas neue";
+    color: #fff;
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenedor Principal */
+.main-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+/* Encabezado */
+.header .title {
+    font-size: 5em;
+    margin: 0;
+    color: #ff69b4;
+    text-transform: uppercase;
+}
+
+.header .date-location {
+    font-size: 2.2em;
+    margin: 10px 0 20px;
+}
+
+/* Detalles */
+
+.details h2 {
+    color: #ff69b4;
+    font-size: 2.2em;
+
+
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 1.7em;
+
+}
+
+.map-link {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+
+/* Sección Motivacional */
+.motivation-section {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff69b4, #6a5acd);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.motivation-section p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.motivation-section strong {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+
+
+/* Sección Compra de Entradas */
+.ticket-section {
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.ticket-section h2 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+    font-size: 2.8em;
+}
+
+.ticket-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ticket-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff69b4;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ticket-btn:hover {
+    background-color: #ff85c1;
+    transform: scale(1.05);
+}
+
+/* Estilos personalizados por tipo de entrada */
+.ticket-btn.general {
+    background-color: #6a5acd;
+}
+
+.ticket-btn.general:hover {
+    background-color: #8378e3;
+}
+
+.ticket-btn.vip {
+    background-color: #ff4500;
+}
+
+.ticket-btn.vip:hover {
+    background-color: #ff7043;
+}
+
+.ticket-btn.ultra-vip {
+    background-color: #32cd32;
+}
+
+.ticket-btn.ultra-vip:hover {
+    background-color: #64e764;
+}
+
+.ticket-btn.mesas-vip {
+    background-color: #ffd700;
+}
+
+.ticket-btn.mesas-vip:hover {
+    background-color: #ffdf6e;
+}
+
+/* Contacto */
+.contacts {
+    margin: 20px 0;
+}
+
+.contacts h2 {
+    color: #ff69b4;
+    font-size: 2.2em;
+
+}
+
+.contact-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-links img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.contact-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+.sponsors {
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+.sponsor-img {
+    width: 100px;
+    height: 70px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.sponsor-img:hover {
+    transform: scale(1.1);
+}
